@@ -1,0 +1,307 @@
+.main {
+    margin-left: 285px;
+    margin-top: 71px;
+    padding: 45px 32px 0px 32px;
+
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 12px 12px 0px 0px;
+    padding: 24px 20px 16px 20px;
+    border-top: 1px solid #D4D9E1;
+    border-left: 1px solid #D4D9E1;
+    border-right: 1px solid #D4D9E1;
+
+}
+
+.totalJobText {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 20px;
+
+}
+
+.jobPostContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border: 1px solid #E8E7EC;
+    border-radius: 8px;
+    margin-top: 16px;
+    
+}
+
+.companyLogoPostDiv {
+    display: flex;
+    align-items: center;
+}
+
+.companyIconDiv {
+    border: 1px solid #E8E7EC;
+    background: #F6F6F6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    height: 52px;
+    width: 52px;
+}
+
+.jobReqPostDiv {
+    margin-left: 12px;
+}
+
+.postName {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+
+}
+
+.companyNameRequirement {
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
+
+    .companyName {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+
+    }
+
+    .greyDotDivider {
+        height: 4px;
+        width: 4px;
+        border-radius: 50%;
+        background: #485066;
+        margin-left: 5px;
+        margin-top: 3px;
+
+    }
+
+    .Figma {
+        color: #FF8E22;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        background: #FFF2E6;
+        margin-left: 12px;
+        padding: 4px 8px;
+        border-radius: 38px;
+
+
+
+    }
+
+    .Prototyping {
+        color: #EA3A59;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        background: #FDEDF0;
+        margin-left: 12px;
+        padding: 4px 8px;
+        border-radius: 38px;
+    }
+
+    .UserInterface {
+        color: #2288FF;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        background: #E6F0FF;
+        margin-left: 12px;
+        padding: 4px 8px;
+        border-radius: 38px;
+    }
+}
+
+
+.jobDescriptionDiv {
+    display: flex;
+    align-items: center;
+
+    .jobDescriptionDot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: #A2A3A7;
+        margin-top: 3px;
+
+    }
+
+    .jobDescription {
+        font-size: 16px;
+        font-weight: 400;
+        color: #A2A3A7;
+        margin-left: 8px;
+
+    }
+}
+
+.companyTypeDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 24px;
+
+    .duration {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        margin-left: 8px;
+
+    }
+
+    .hrLine {
+        width: 1px;
+        height: 18px;
+        background-color: #D6D6D6;
+        margin-left: 12px;
+        margin-right: 5px;
+
+
+
+    }
+
+    .jobType {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        margin-left: 8px;
+
+    }
+
+    .postedOn {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+
+    }
+
+    .postedOnGrey {
+        color: #A2A3A7;
+    }
+}
+
+.saveApplyDiv {
+    display: flex;
+
+    .applyNow {
+        background: #FF9800;
+        border: 1px solid #FFFFFF5C;
+        border-radius: 8px;
+        padding: 11px 37px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        color: #fff;
+        margin-right: 16px;
+    }
+
+    .save {
+        border: 1px solid #0000001C;
+        border-radius: 8px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        padding: 10px 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    .saveText {
+        margin-left: 8px;
+    }
+}
+
+
+
+
+
+.bottomContainer{
+    background-color: #fff;
+    padding: 20px 20px 12px 20px;
+    border-top: 1px solid #D4D9E1;
+    border-left: 1px solid #D4D9E1;
+    border-right: 1px solid #D4D9E1;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px -2px 72.9px -10px #00000014;
+    
+}
+
+
+
+.bottom {
+    
+    margin-left: 285px;
+    padding: 0px 32px 0px 32px;
+
+    .pageText {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        color: #A2A3A7;
+        align-self: center;
+
+
+    }
+
+    span {
+        color: #485066;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12px;
+    }
+
+}
+
+.paginationDiv {
+    display: flex;
+    align-items: center;
+
+    .selectedPaginationButton {
+        padding: 8px;
+        border: 1px solid #E8E7EC;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12px;
+        color: #FFFFFF;
+        border-radius: 4px;
+        background-color: #23283B;
+        margin-left: 6px;
+
+    }
+
+    .paginationButton {
+        padding: 8px;
+        border: 1px solid #E8E7EC;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12px;
+        color: #23283B;
+        border-radius: 4px;
+        margin-left: 6px;
+
+    }
+    
+    .dotDotDot{
+        margin-left:6px;
+    }
+}
+
+.savePercentDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+}

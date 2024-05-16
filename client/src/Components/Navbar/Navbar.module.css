@@ -1,0 +1,111 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 13px 21px 10px 21px;
+  border-bottom: 1px solid #E8E7EC;
+
+    
+    
+}
+
+.navigationContainer{
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  /* padding: 13px 240px 10px 21px; */
+  border-bottom: 1px solid #e8e7ec;
+  z-index: 1000; 
+}
+
+.navigationContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 24px; /* Add margin to the right to prevent overlapping */
+}
+
+.sixth{
+  margin-right: 36px;
+ font-weight: 400;
+ font-size: 16px;
+  cursor: pointer;
+}
+
+.fifth, .forth, .third{
+  margin-right: 32px;
+  font-weight: 400;
+ font-size: 16px;
+  cursor: pointer;
+}
+
+.first{
+  margin-right: 10px;
+  font-weight: 400;
+ font-size: 16px;
+  cursor: pointer;
+}
+
+.second{
+  margin-right: 32px;
+  font-weight: 400;
+ font-size: 12px;
+ background: #ffefd6;
+ padding:  6px 10px 6px 10px;
+ border-radius: 59px;
+ color: #FF9800;
+ cursor: pointer;
+}
+
+.profileContainer {
+  width: 134px;
+  height: 43px;
+  padding: 6px 8px 6px 8px;
+  border-radius: 61px;
+  background: #F5F6F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 18px;
+}
+
+.profileDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.photoDiv {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  overflow: hidden
+}
+
+.profilePhoto {
+  width: 32px;
+  height: auto;
+
+}
+
+.profileName {
+  margin-left: 11px;
+  margin-right: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  
+
+}

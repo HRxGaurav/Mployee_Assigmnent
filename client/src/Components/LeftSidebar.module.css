@@ -1,0 +1,156 @@
+.main {
+    width: 283px;
+    height: calc(100vh - 5rem);
+    background-color: #ffffff;
+    position: fixed;
+    top: 5;
+    left: 0;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+
+  }
+
+  .main::-webkit-scrollbar{
+    width: 15px;
+  }
+  .main::-webkit-scrollbar-track{
+    background-color: #bbc1d7;
+  }
+  .main::-webkit-scrollbar-thumb{
+    background-color: #23283b;
+    border-radius: 15px;
+  }
+
+.sideNavDiv{
+  display: flex;
+  margin-top: 36px;
+  /* align-content: center; */
+  align-items: center;
+  margin-left: 40px;
+}
+
+.sideNavText{
+  margin-left: 12px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.selectedSideNavDiv{
+  display: flex;
+  margin-top: 36px;
+  align-items: center;
+  margin-left: 24px;
+  background: #23283B;
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  width: 200px;
+  
+
+}
+
+.selectedSideText{
+  margin-left: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 85px;
+}
+
+.selectedListItemsDiv{
+  display: flex;
+  align-items: center;
+  border: 1px solid #E6E7EC;
+  padding: 18px;
+  border-radius: 8px;
+  margin-top: 8px;
+  width: 193px;
+  margin-left: 24px;
+}
+
+.yellowDot{
+  background: #FF9800;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+
+}
+
+.selectedListText{
+  margin-left: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FF9800;
+}
+
+.listItemsDiv{
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  margin-top: 8px;
+  width: 193px;
+  margin-left: 24px;
+}
+
+.greyDot{
+  background: #D8DBE4;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+
+}
+
+.ListText{
+  margin-left: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #485066;
+}
+
+
+
+
+
+
+
+.help{
+  margin-left: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #83899F;
+
+}
+
+
+
+.currentPlan{
+  margin: 32px 0px 12px 24px;
+  border: 1px solid #D1D1D1;
+  padding: 9px 12px;
+  
+  border-radius: 8px;
+  width: 215px;
+}
+
+
+
+.upgradeDiv{
+  display: flex;
+  align-items: center;
+  background-color: #fffbf5;
+  height: 84px;
+  width: 238px;
+  border-radius: 8px;
+  border: 1px solid #FFA117;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.rightArrow{
+  margin-left: 16.2px;
+}
+  

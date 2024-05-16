@@ -1,0 +1,51 @@
+.progress {
+  position: relative;
+  margin: 4px;
+  float: left;
+  text-align: center;
+}
+
+.barOverflow {
+  position: relative;
+  overflow: hidden;
+  width: 208px;
+  height: 104px;
+  margin-bottom: -14px;
+}
+
+
+
+
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 208px;
+  height: 208px;
+  border-radius: 104px;
+  box-sizing: border-box;
+  border: 21px solid #eee;
+  transition: border-color 0.3s ease-in-out;
+  
+}
+
+
+
+.percent{
+font-size: 28px;
+font-weight: 400;
+line-height: 28px;
+margin-top: -52px;
+margin-bottom: 8px;
+
+}
+
+.matchScore{
+  color: #485066;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  
+}
+
