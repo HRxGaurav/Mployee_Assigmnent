@@ -12,18 +12,44 @@
   height: 104px;
   margin-bottom: -14px;
 }
+.barOverflow2{
+  position: relative;
+  overflow: hidden;
+  width: 220px;
+  height: 110px;
+  /* margin-bottom: -14px; */
+  margin-top: -109px;
+  margin-left: -5px;
+}
 
 
 
 
+
+.bar2 {
+  position: absolute;
+  
+  
+  top: -10;
+
+  width: 215px;
+  height: 208px;
+  border-radius: 50%;
+  box-sizing: content-box;
+  border: 1px solid #E8E7EC;
+  transition: border-color 0.3s ease-in-out;
+  z-index: 200000;
+  
+}
 
 .bar {
+  
   position: absolute;
   top: 0;
   left: 0;
   width: 208px;
   height: 208px;
-  border-radius: 104px;
+  border-radius: 50%;
   box-sizing: border-box;
   border: 21px solid #eee;
   transition: border-color 0.3s ease-in-out;
@@ -38,7 +64,6 @@ font-weight: 400;
 line-height: 28px;
 margin-top: -52px;
 margin-bottom: 8px;
-
 }
 
 .matchScore{

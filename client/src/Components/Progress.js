@@ -41,10 +41,15 @@ const Progress = ({ percent }) => {
 
     return (
       <div className={styles.progress}>
+        
         <div className={styles.barOverflow}>
             <div ref={barRef} className={styles.bar}></div>
             
         </div>
+
+        <div className={styles.barOverflow2}>
+            <div  className={styles.bar2}></div>
+        </div>  
         <div ref={valRef} className={styles.percent}>
           {percent}
         </div>
